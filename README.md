@@ -48,11 +48,13 @@ The code has been tested running under Python 3.8.10 and Ubuntu 22.04.2. The req
 python3 run_agnes.py --dataset Ogbn --dataset_path /home/nvme1/ogbn128K_64bit/ --sb-size 1024 --num-workers 16 --sizes 10,10,10
 ```
 % run parameters
- - num-epochs: number of epochs to train the model
- - num-workers: number of worker threads
- - num-hiddens: number of hidden units in the model's layers
- - dataset: name of the dataset to be used for training and testing
- - sizes: comma-separated values representing the sizes of neighborhoods to sample at each GNN layer
- - model: model type to be used for training (sage|gcn|gat)
- - buffer-size: maximum available size of buffer in megabytes
+ - --dataset: name of the dataset to be used for training and testing
+ - --dataset_path: path of the dataset
+ - --num-epochs: number of epochs to train the model
+ - --num-workers: number of worker threads
+ - --num-hiddens: number of hidden units in the model's layers
+ - --sb-size: 
+ - --sizes: comma-separated values representing the sampling sizes of neighborhoods at each GNN layer
+ - --model: model type to be used for training (sage|gcn|gat)
+ - --buffer-size: maximum available size of buffer in megabytes
     
