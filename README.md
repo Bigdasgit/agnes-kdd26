@@ -3,6 +3,7 @@
 This repository provides a reference implementation of *AGNES* as described in the following paper:
 > AGNES: Accelerating Storage-based GNN Training for Graph Neural Networks<br>
 > Myung-Hwan Jang, Jeong-Min Park, Yunyong Ko, and Sang-Wook Kim*<br>
+> The 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026)<br>
 
 This project is written in standard python, C++ and CUDA.
 
