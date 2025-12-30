@@ -19,7 +19,7 @@ The code has been tested running under Python 3.8.10 and Ubuntu 22.04.2. The req
 (1) Unzip AGNES.zip into the preferred directory
 
 (2) Install necessary Python modules
-- PyTorch with version of >= 1.9.0. Visit here for details.
+- PyTorch with version of >= 1.9.0.
 - pip3 install tqdm
 - pip3 install ogb
 - PyG. Visit here (https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html) for details.
