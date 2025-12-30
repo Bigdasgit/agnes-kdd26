@@ -1,5 +1,4 @@
-# AGNES
-## AGNES: Accelerating Storage-based GNN Training for Graph Neural Networks
+# AGNES: Accelerating Storage-based GNN Training for Graph Neural Networks
 
 This repository provides a reference implementation of *AGNES* as described in the following paper:
 > AGNES: Accelerating Storage-based GNN Training for Graph Neural Networks<br>
@@ -8,6 +7,7 @@ This repository provides a reference implementation of *AGNES* as described in t
 This project is written in standard python, C++ and CUDA.
 
 # Requirements
+The code has been tested running under Python 3.8.10. The required packages are as follows:
  - Boost 1.61+
  - G++ 5.0+
  - Ubuntu 22.04.2+
