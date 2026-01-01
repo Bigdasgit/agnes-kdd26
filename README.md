@@ -1,3 +1,6 @@
+This is a pre-release codes of AGNES paper at KDD'26 conference.
+Official codes, descriptions, etc. will be further updated and available after its publication.
+
 # AGNES: Accelerating Storage-based GNN Training for Graph Neural Networks
 
 This repository provides a reference implementation of *AGNES* as described in the following paper:
